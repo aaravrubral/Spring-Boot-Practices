@@ -1,0 +1,51 @@
+package aarav.dsa.com;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class ListDemo {
+
+	public static void main(String[] args) {
+		
+		//Creating a list of integers
+		//List<List<Integer>> list=new ArrayList<>();
+		List<String> sList=new ArrayList<>();
+		List<String> sList1=new ArrayList<>();
+		//ArrayList<Integer> list1 = new ArrayList<>();
+		//adding String elements
+		sList.add("Aarav Rubral");
+		sList.add("Rachit Rubral");
+		sList.add("Saloni Rubral");
+		sList.add("Aditi Rubral");
+		sList.add("Himanshu Rubral");
+		sList.add(2, "Neha Sharma");
+		sList1.add("Urvashi Rautela");
+		sList1.add("Manju Rauniyar");
+		sList1.add("Ranju Devi");
+		sList1.add("Haresh Gupta");
+		sList1.add("Sudhanshu Kumar");
+		sList1.add(2, "Prabhanshu Kumar");
+		sList.addAll(sList);
+		//adding Integer elements
+		System.out.println(sList.containsAll(sList));
+		/*
+		System.out.println("Enter Integers :");
+		//taking inputs as a integer elements
+		for(int i=0;i<n;i++) {
+			list.add(scn.nextInt()); 
+		}*/
+		//Using addAll
+		
+		//remove
+		
+		for (String str : sList) {
+			System.out.print(str+"\n");
+		}
+		
+		System.out.println("\n"+sList.size());
+		//scn.close();
+
+	}
+
+}

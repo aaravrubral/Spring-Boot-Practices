@@ -1,0 +1,43 @@
+package aarav.dsa.com;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class ListDemo {
+
+	public static void main(String[] args) {
+		
+		//Creating a list of integers
+		List<Integer> list=new ArrayList<>();
+		List<String> sList=new ArrayList<>();
+		//ArrayList<Integer> list1 = new ArrayList<>();
+		sList.add("Aarav Rubral");
+		sList.add("Rachit Rubral");
+		sList.add("Saloni Rubral");
+		sList.add("Aditi Rubral");
+		sList.add("Himanshu Rubral");
+		/*Scanner scn=new Scanner(System.in);
+		
+		//length of integer list
+		int n=scn.nextInt(); 
+		
+		System.out.println("Enter Integers :");
+		//taking inputs as a integer elements
+		for(int i=0;i<n;i++) {
+			list.add(scn.nextInt()); 
+		}*/
+		//Using addAll
+		
+		//remove
+		
+		for (String str : sList) {
+			System.out.print(str+"\n");
+		}
+		
+		System.out.println("\n"+"Name : "+sList.size());
+		//scn.close();
+
+	}
+
+}

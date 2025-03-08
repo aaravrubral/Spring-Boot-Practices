@@ -1,0 +1,5 @@
+package in.aarav.rubral.model;
+
+public class Student {
+
+}

@@ -1,0 +1,5 @@
+package in.aarav.rubral.config;
+
+public class AppConfig {
+
+}

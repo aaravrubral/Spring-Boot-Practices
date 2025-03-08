@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/Users/aaravrubral/Documents/workspace/Data Structures/.metadata/.plugins/org.eclipse.jdt.core
+30038764.index
+3080147159.index
+1865797976.index
