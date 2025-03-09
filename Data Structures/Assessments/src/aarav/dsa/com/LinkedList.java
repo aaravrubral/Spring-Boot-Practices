@@ -44,6 +44,7 @@ public class LinkedList {
 	
 	public void addFirst(int e) {
 		Node newest=new Node(e,null);
+
 		
 		if(isEmpty()) {
 			head=newest;
