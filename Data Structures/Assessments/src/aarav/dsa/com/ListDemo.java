@@ -22,6 +22,7 @@ public class ListDemo {
 		list.add(11);
 		list.add(69);
 		list.add(76);
+		list.add(78);
 		Set<Integer> set=new HashSet<>(list);
 		
 		
