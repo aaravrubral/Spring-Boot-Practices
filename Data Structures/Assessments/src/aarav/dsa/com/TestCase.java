@@ -20,6 +20,7 @@ public class TestCase {
 		TestCase c1=new TestCase();
 		c1.m1(5);
 		c1.m1(2,3);
+                C1.m1(2.5,5.6);
 
 	}
 

@@ -3,7 +3,8 @@ package aarav.dsa.com;
 public class ReverseStringWithCond {
 
 	public static void main(String[] args) {
-		String str="ab,cd$e";
+		String str="ab,cd,$efrg";
+		String str2="abcdf,bfgch";
 		
 		reversed(str);
 		System.out.println(reversed(str));
